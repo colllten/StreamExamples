@@ -1,8 +1,6 @@
 package OracleCollectionsExercises;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class Exercise3 {
 //    Write a method that takes a List<String> and applies String.trim to each element.
@@ -14,11 +12,7 @@ public class Exercise3 {
     }
 
     public static void main(String[] args) {
-        List<String> list = new LinkedList<>();
-        list.add("Colten     ");
-        list.add("Mochi");
-        System.out.printf("Before trimming: %s\n", list);
-        trimStrings(list);
-        System.out.printf("After trimming: %s\n", list);
+        String s = "   Fly me   to the moon   ";
+        System.out.println(Arrays.toString(s.trim().split(" ")));
     }
 }
