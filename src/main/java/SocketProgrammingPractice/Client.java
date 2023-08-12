@@ -27,10 +27,6 @@ public class Client {
             System.out.println("Wrote to the server");
 
             System.out.printf("Server says: %s\n", br.readLine());
-
-            ArrayList<ArrayList<String>> r = new ArrayList<>();
-            r.add(new ArrayList<>());
-            r.get(0).add()
         }
     }
 }
