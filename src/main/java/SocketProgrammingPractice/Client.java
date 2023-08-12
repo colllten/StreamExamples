@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Client {
@@ -25,6 +27,10 @@ public class Client {
             System.out.println("Wrote to the server");
 
             System.out.printf("Server says: %s\n", br.readLine());
+
+            ArrayList<ArrayList<String>> r = new ArrayList<>();
+            r.add(new ArrayList<>());
+            r.get(0).add()
         }
     }
 }
